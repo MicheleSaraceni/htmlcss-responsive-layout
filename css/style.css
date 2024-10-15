@@ -149,8 +149,13 @@ li {
 
 #social a {
     display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--color-black);
+}
+
+i {
+    padding: 5px;
 }
 
 .ads {
