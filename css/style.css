@@ -53,6 +53,10 @@ body {
     color: var(--color-dark-text);
 }
 
+.text {
+    line-height: 1em;
+}
+
 /* Flex */
 .d-flex {
     display: flex;
@@ -103,6 +107,15 @@ h1 {
     font-size: 3em;
 }
 
+h2 {
+    padding: 10px 0;
+}
+
+hr {
+    color: var(--color-contrast);
+    width: 100px;
+}
+
 .mini {
     font-size: 10px;
 }
@@ -114,6 +127,10 @@ h1 {
 ul {
     list-style-type: none;
     padding: 20px 0px 10px;
+}
+
+li {
+    padding: 10px 0;
 }
 
 #social {
@@ -128,6 +145,7 @@ ul {
     margin: 0px 10px;
     border-radius: 20px;
     padding: 5px 1px;
+    box-shadow: 1px 3px 1px var(--color-black);
 }
 
 #social a {
@@ -153,6 +171,15 @@ ul {
     width: 100%;
     max-width: 100%;
     display: block;
+}
+
+.img {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.img img {
+    width: 100%;
 }
 
 /* Media Query */
@@ -181,6 +208,14 @@ ul {
 
     .ads img {
         width: 100%;
+    }
+
+    .img {
+        width: 30%;
+        position: relative;
+        float: left;
+        top: 0;
+        left: 0;
     }
 }
 
